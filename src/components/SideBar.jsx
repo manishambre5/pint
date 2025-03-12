@@ -3,7 +3,7 @@ import { RiCameraLensLine, RiHomeLine, RiCompassLine, RiAddCircleLine, RiNotific
 
 const SideBar = () => {
     return (
-        <div className="fixed top-0 left-0 h-screen w-20 m-0 flex flex-col bg-white dark:bg-black text-black dark:text-white border-r-1 border-r-gray-100 dark:border-r-gray-700">
+        <div className="fixed bottom-0 md:top-0 md:left-0 md:h-screen h-20 w-screen md:w-20 m-0 flex flex-row md:flex-col bg-white dark:bg-black text-black dark:text-white border-r-1 border-r-gray-100 dark:border-r-gray-700">
             <SideBarIcon icon={<RiCameraLensLine size="25" />} />
             <SideBarIcon icon={<RiHomeLine size="25" />} />
             <SideBarIcon icon={<RiCompassLine size="25" />} />
