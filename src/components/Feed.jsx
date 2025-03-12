@@ -5,65 +5,69 @@ const Feed = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-start">
             <div className="grid gap-4">
                 <div className="bg-black rounded-xl group relative cursor-pointer ">
-                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('../public/p0.jpg')} />
+                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('https://images.pexels.com/photos/30979284/pexels-photo-30979284/free-photo-of-charming-traditional-houses-by-river-in-kyoto-japan.jpeg')} />
                     <Overlay />
                 </div>
                 <div className="bg-black rounded-xl group relative cursor-pointer ">
-                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('../public/p1.jpg')} />
+                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('https://images.pexels.com/photos/30988651/pexels-photo-30988651/free-photo-of-snow-monkeys-relaxing-in-hot-springs-japan.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')} />
                     <Overlay />
                 </div>
                 <div className="bg-black rounded-xl group relative cursor-pointer ">
-                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('../public/p2.jpg')} />
+                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('https://images.pexels.com/photos/30871781/pexels-photo-30871781/free-photo-of-architectural-shadows-in-sultan-qaboos-mosque-corridor.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')} />
                     <Overlay />
                 </div>
                 <div className="bg-black rounded-xl group relative cursor-pointer ">
-                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('../public/p0.jpg')} />
-                    <Overlay />
-                </div>
-            </div>
-            <div className="grid gap-4">
-                <div className="bg-black rounded-xl group relative cursor-pointer ">
-                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('../public/p3.jpg')} />
-                    <Overlay />
-                </div>
-                <div className="bg-black rounded-xl group relative cursor-pointer ">
-                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('../public/p4.jpg')} />
-                    <Overlay />
-                </div>
-                <div className="bg-black rounded-xl group relative cursor-pointer ">
-                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('../public/p5.jpg')} />
+                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('https://images.pexels.com/photos/31043835/pexels-photo-31043835/free-photo-of-serene-sunset-over-gyeongju-s-scenic-landscape.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')} />
                     <Overlay />
                 </div>
             </div>
             <div className="grid gap-4">
                 <div className="bg-black rounded-xl group relative cursor-pointer ">
-                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('../public/p6.jpg')} />
+                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('https://images.pexels.com/photos/31056966/pexels-photo-31056966/free-photo-of-beautiful-cherry-blossoms-in-springtime.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')} />
                     <Overlay />
                 </div>
                 <div className="bg-black rounded-xl group relative cursor-pointer ">
-                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('../public/p0.jpg')} />
+                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('https://images.pexels.com/photos/4346305/pexels-photo-4346305.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')} />
                     <Overlay />
                 </div>
                 <div className="bg-black rounded-xl group relative cursor-pointer ">
-                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('../public/p1.jpg')} />
-                    <Overlay />
-                </div>
-                <div className="bg-black rounded-xl group relative cursor-pointer ">
-                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('../public/p6.jpg')} />
+                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('https://images.pexels.com/photos/29704087/pexels-photo-29704087/free-photo-of-artistic-desk-setup-with-sketches-and-coffee.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')} />
                     <Overlay />
                 </div>
             </div>
             <div className="grid gap-4">
                 <div className="bg-black rounded-xl group relative cursor-pointer ">
-                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('../public/p2.jpg')} />
+                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('https://images.pexels.com/photos/29193248/pexels-photo-29193248/free-photo-of-hiroshima-castle-amidst-sakura-blossoms-in-spring.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')} />
                     <Overlay />
                 </div>
                 <div className="bg-black rounded-xl group relative cursor-pointer ">
-                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('../public/p3.jpg')} />
+                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('https://images.pexels.com/photos/30267350/pexels-photo-30267350/free-photo-of-charming-breton-house-with-bicycle-in-ouessant.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')} />
                     <Overlay />
                 </div>
                 <div className="bg-black rounded-xl group relative cursor-pointer ">
-                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('../public/p4.jpg')} />
+                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('https://images.pexels.com/photos/16648616/pexels-photo-16648616/free-photo-of-railway-station-platform.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')} />
+                    <Overlay />
+                </div>
+                <div className="bg-black rounded-xl group relative cursor-pointer ">
+                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('https://images.pexels.com/photos/30344653/pexels-photo-30344653/free-photo-of-scenic-view-of-mountains-and-lake-in-glacier-national-park.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')} />
+                    <Overlay />
+                </div>
+                <div className="bg-black rounded-xl group relative cursor-pointer ">
+                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('https://images.pexels.com/photos/29078810/pexels-photo-29078810/free-photo-of-dramatic-dolomites-mountain-peaks-in-mist.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')} />
+                    <Overlay />
+                </div>
+            </div>
+            <div className="grid gap-4">
+                <div className="bg-black rounded-xl group relative cursor-pointer ">
+                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('https://images.pexels.com/photos/30229536/pexels-photo-30229536/free-photo-of-historic-architectural-building-under-clear-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')} />
+                    <Overlay />
+                </div>
+                <div className="bg-black rounded-xl group relative cursor-pointer ">
+                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('https://images.pexels.com/photos/5038403/pexels-photo-5038403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')} />
+                    <Overlay />
+                </div>
+                <div className="bg-black rounded-xl group relative cursor-pointer ">
+                    <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('https://images.pexels.com/photos/30965537/pexels-photo-30965537/free-photo-of-serene-waterfall-in-lush-indonesian-jungle.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')} />
                     <Overlay />
                 </div>
             </div>
