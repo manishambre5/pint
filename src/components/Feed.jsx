@@ -4,7 +4,7 @@ const Feed = () => {
     return (
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-start">
             <div className="grid gap-4">
-                <div className="bg-black rounded-xl group relative cursor-pointer ">
+                <div className="bg-black rounded-xl group relative cursor-pointer">
                     <img className="h-auto max-w-full rounded-xl group-hover:opacity-70" src={('https://images.pexels.com/photos/30979284/pexels-photo-30979284/free-photo-of-charming-traditional-houses-by-river-in-kyoto-japan.jpeg')} />
                     <Overlay />
                 </div>

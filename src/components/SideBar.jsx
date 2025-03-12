@@ -18,7 +18,7 @@ const SideBar = () => {
 const SideBarIcon = ({ icon, text = 'tool tip' }) => (
     <div className="sidebar-icon group">
         {icon}
-        <span class="sidebar-tooltip group-hover:scale-100">
+        <span class="sidebar-tooltip group-hover:visible group-hover:z-50">
             {text}
         </span>
     </div>
