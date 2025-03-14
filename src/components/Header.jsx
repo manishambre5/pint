@@ -23,14 +23,14 @@ const ThemeIcon = () => {
     return (
         <span onClick={handleMode}>
             {darkTheme ? (
-                <RiMoonClearLine size='25' className='header-icon' />
+                <RiMoonClearLine className='header-icon' />
             ) : (
-                <RiSunLine size='25' className='header-icon' />
+                <RiSunLine className='header-icon' />
             )}
         </span>
     );
 };
-const ProfileIcon = () => <RiUserLine size='25' className='header-icon' />;
-const AccountsIcon = () => <RiArrowDownSLine size='25' className='header-icon' />;
+const ProfileIcon = () => <RiUserLine className='header-icon' />;
+const AccountsIcon = () => <RiArrowDownSLine className='header-icon' />;
 
 export default Header;

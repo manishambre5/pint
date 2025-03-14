@@ -4,7 +4,7 @@ import Feed from "./Feed";
 
 const Main = () => {
     return (
-        <div className="flex-col md:ml-24 md:mr-4 ml-4 mr-4">
+        <div className="flex-col mb-24 md:mb-0 md:ml-24 ml-4 mr-4">
             <Header />
             <Feed />
         </div>
