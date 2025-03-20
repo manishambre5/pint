@@ -11,34 +11,44 @@
   
   .sidebar-icon {
     @apply relative flex items-center justify-center
-    h-12 w-12 my-2 mx-auto 
+    h-12 w-12 my-2 mx-auto
     hover:bg-gray-100 dark:hover:bg-gray-500 rounded-lg
     transition-all cursor-pointer
     text-3xl md:shrink-0;
   }
   .sidebar-tooltip {
     @apply absolute w-auto p-2 m-2 min-w-max
-    bottom-12 md:left-12 md:bottom-0 bottom-12
+    md:left-12 md:bottom-0 bottom-12
     rounded-md shadow-md 
     text-white dark:text-black bg-black dark:bg-gray-100
     text-xs invisible;
   }
   .header {
-    @apply flex flex-row items-center justify-start w-full h-20 m-0 md:gap-2 gap-1 text-black dark:text-white;
+    @apply fixed px-4 md:pl-24 left-0 top-0 flex flex-row items-center justify-start w-full h-20 m-0 md:gap-2 gap-1 text-black dark:text-white bg-white dark:bg-black;
   }
   .header-icon {
-    @apply relative flex items-center justify-center m-auto h-12 w-12 hover:bg-gray-100 dark:hover:bg-gray-500 rounded-lg transition-all cursor-pointer p-2 shrink-0;
+    @apply relative flex items-center justify-center m-auto h-12 w-12 hover:bg-gray-100 dark:hover:bg-gray-500 rounded-lg transition-all cursor-pointer p-2 shrink-0 text-3xl;
+  }
+  .accounts-submenu {
+    @apply flex flex-col justify-center items-start gap-2
+    absolute w-auto p-4 mt-6
+    top-12 right-4
+    rounded-md shadow-md 
+    text-black dark:text-gray-100 bg-white dark:bg-gray-700
+    uppercase invisible;
   }
   .search {
-    @apply w-auto flex items-center justify-around 
-    bg-gray-100 dark:bg-gray-700 text-gray-100
-    px-2 h-12 ml-0 mr-0 rounded-md w-full;
-  }
-  .search-input {
-    @apply font-sans font-semibold w-full
-    bg-transparent outline-none 
+    @apply flex-grow 
+    bg-gray-100 dark:bg-gray-700 outline-none
     text-gray-500 dark:text-white placeholder-gray-500 dark:placeholder-gray-300
-    pl-1 rounded;
+    px-2 h-12 ml-0 mr-0 rounded-md;
+  }
+  .profile_sub_menu {
+    @apply absolute w-auto p-2 m-2 min-w-max
+    md:left-12 md:bottom-0 bottom-12
+    rounded-md shadow-md 
+    text-white dark:text-black bg-black dark:bg-gray-100
+    text-xs invisible;
   }
   .feed-overlay-options {
     @apply flex items-center justify-center

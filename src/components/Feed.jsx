@@ -30,7 +30,7 @@ const Feed = () => {
     }
 
     return (
-        <div className="gap-4 columns-2 sm:columns-3 md:columns-4 2xl:columns-5">
+        <div className="pt-20 gap-4 columns-2 sm:columns-3 md:columns-4 2xl:columns-5">
             {images.map((image, index) => (
                 <div key={index} className="bg-black rounded-xl group relative cursor-pointer mb-4 md:shrink-0">
                     <img src={image} alt={`Random Image ${index}`} className="overflow-hidden md:h-full w-full rounded-xl group-hover:opacity-70" />
@@ -42,7 +42,7 @@ const Feed = () => {
 };
 
 const Overlay = () => (
-    <div className="overlay opacity-0 group-hover:opacity-100 group-hover:h-full">
+    <div className="overlay invisible group-hover:visible h-full">
         <div className="flex flex-row justify-end items-start">
             <a href="#" className="m-2 px-3 py-2 md:px-5 md:py-3 bg-red-500 dark:bg-red-700 hover:bg-red-700 dark:hover:bg-red-500 text-white rounded-4xl transition-all">Save</a>
         </div>

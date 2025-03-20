@@ -7,15 +7,13 @@ const Header = () => {
             <Search />
             <ThemeIcon />
             <ProfileIcon />
-            <AccountsIcon />
+            <AccountsIcon icon={<RiArrowDownSLine />} />
         </div>
     );
 };
 
 const Search = () => (
-    <div className='search'>
-      <input className='search-input' type='text' placeholder='Search' />
-    </div>
+      <input className='search' type='text' placeholder='Search' />
 );
 const ThemeIcon = () => {
     const [darkTheme, setDarkTheme] = useDarkMode();
@@ -31,6 +29,30 @@ const ThemeIcon = () => {
     );
 };
 const ProfileIcon = () => <RiUserLine className='header-icon' />;
-const AccountsIcon = () => <RiArrowDownSLine className='header-icon' />;
+const AccountsIcon = ({ icon}) => (
+    <div className="group">
+        <div className="header-icon">{icon}</div>
+        <div className="accounts-submenu group-hover:visible">
+            <div className="">
+                <p className="text-xs">Currently in</p>
+                <div className="flex flex-row text-black bg-gray-200 rounded-md w-full p-2 mb-2 gap-2">
+                    <RiUserLine className='header-icon h-20 w-20' />
+                    <div className="flex-grow">
+                        <p className="font-bold">John Doe</p>
+                        <p>Personal</p>
+                        <p>johndoe@mail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div className="">
+                <p className="text-xs">Your Accounts</p>
+                <div className="flex flex-col font-semibold">
+                    <a href="#" className="text-base p-1 hover:bg-gray-100">Add PINT account</a>
+                    <a href="#" className="text-base p-1 hover:bg-gray-100">Convert to business</a>
+                </div>
+            </div>
+        </div>
+    </div>
+);
 
 export default Header;

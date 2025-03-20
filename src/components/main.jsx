@@ -4,9 +4,9 @@ import Feed from "./Feed";
 
 const Main = () => {
     return (
-        <div className="flex-col mb-24 md:mb-0 md:ml-24 ml-4 mr-4">
-            <Header />
+        <div className="flex flex-col pb-24 md:pb-4 md:pl-24 pl-4 pr-4">
             <Feed />
+            <Header />
         </div>
     );
 };
