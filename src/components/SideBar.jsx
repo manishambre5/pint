@@ -58,7 +58,7 @@ const SideBar = () => {
 };
 
 const ToolTip = ({tip}) => (
-    <span class="sidebar-tooltip group-hover:visible">
+    <span className="sidebar-tooltip group-hover:visible">
         {tip}
     </span>
 );
